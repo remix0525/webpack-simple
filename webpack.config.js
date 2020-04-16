@@ -19,7 +19,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   plugins:[
-    new CleanWebpackPlugin(),
+    // new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title:"我是插件测试",
       template:"src/index.html"
